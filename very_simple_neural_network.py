@@ -9,6 +9,9 @@ def sigmoid_derivative(x):
     return x * (1 - x)
 
 # Define the neural network class
+# The order of parameters should be input_size followed by hidden_size for the first weight matrix, 
+# and hidden_size followed by output_size for the second weight matrix. 
+# This is based on the structure of the neural network where the input layer connects to the hidden layer, and the hidden layer connects to the output layer.
 class NeuralNetwork:
     def __init__(self, input_size, hidden_size, output_size):
         self.weights_input_hidden = np.random.rand(input_size, hidden_size)
