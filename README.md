@@ -140,3 +140,8 @@ In summary, the output plot visually shows how the neural network's mean squared
    ```shell
    python xor_neural_network.py
    ```
+   You need the NumPy and Matplotlib libraries installed. You can install them using the following commands:
+   ```shell
+   pip install numpy
+   pip install matplotlib
+   ```   
