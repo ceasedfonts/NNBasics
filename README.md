@@ -98,3 +98,11 @@ The training process usually stops after a certain number of epochs, which is de
 In summary, the output plot visually shows how the neural network's mean squared error changes as it learns and updates its weights through each epoch. This visualization helps you understand how well the network is adapting and improving its predictions during training.
 
 **Remember, the XOR problem is a simple example to illustrate the neural network's learning process. Real-world applications involve more complex data and tasks.**
+
+## How to Use the XOR Neural Network Code
+
+1. **Run the Code:**
+   Save the code with a `.py` extension (e.g., `xor_neural_network.py`). Open a terminal or command prompt, navigate to the code's directory, and run the script using the command:
+   ```shell
+   python xor_neural_network.py
+   ```
